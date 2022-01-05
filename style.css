@@ -1,0 +1,13 @@
+body{
+    font-family: 'Barlow', sans-serif;
+}
+#adj{
+    text-align: center;
+    font-size: 50px;
+}
+.parent{
+    display: flex;
+}
+child p{
+    text-align: justify;
+}
