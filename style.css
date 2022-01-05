@@ -7,7 +7,80 @@ body{
 }
 .parent{
     display: flex;
+    margin: auto;
 }
-child p{
+.adj1{
     text-align: justify;
 }
+.half-width{
+    width: 40%;
+    margin-left: 10%;
+}
+.details{
+    padding:20px 60px;
+    border-radius: 10px;
+    /* background-color: rebeccapurple; */
+    background-image: linear-gradient(45deg,green,red,green);
+    font-weight:bold;
+    border: none;
+    margin-top: 14px;
+    color:black;
+}
+.details:hover{
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+}
+.map{
+    height: 35%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.divisions{
+    display: flex;
+    align-content: space-between;
+    margin-top: 100px;
+}
+.dimage{
+    height: 40%;
+    width: 20%;
+}
+.dhaka{
+    width: 380px;
+    margin-left: 40px;
+    height: 600px;
+    border: none;
+    
+}
+.image-edit{
+    height: 200px;
+    width: 380px;
+}
+.div-edit{
+    border: 1px solid gray;
+    box-shadow: 4px 4px 12px rgba(121, 34, 161, 0.876);;
+    border-radius: 10px;
+}
+.des-edit{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.second-part{
+    display: flex;
+    align-content: space-between;
+    margin-top: 100px;
+}
+footer p{
+    text-align: center;
+    margin-top: 100px;
+}
+.clr{
+    color: rgba(255, 0, 234, 0.876);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+}
+
